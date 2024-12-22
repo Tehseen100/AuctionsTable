@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuctionsTable</title>
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">AuctionsTable</a>
+            </div>
+
+            <div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="auctions.html">Auctions</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <div class="cart">
+                        <li><a class="active" id="lgBag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                        </li>
+                    </div>
+
+                    <i id="close" class="fa-solid fa-xmark"></i>
+                </ul>
+            </div>
+
+            <div class="mobile">
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <i id="bars" class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about-header" class="section-p">
+        <div class="header-content">
+            <h2>Shopping Cart</h2>
+            <span><a href="index.html">Home</a> / <a href="cart.html">Cart</a> </span>
+        </div>
+
+    </section>
+
+    <!-- Shopping Cart  -->
+
+    <section id="shoppingCart" class="section-p">
+
+        <div class="shoppingartHead">
+            <h2>Shopping Cart</h2>
+        </div>
+
+        <table class="cartContainer">
+            <tbody class="cartContainerBody">
+
+                <!-- <tr>
+                    <td class="imgName">
+                        <div class="cartProImage">
+                            <img src="img/Products/p1.png" alt="">
+                        </div>
+
+                        <div class="cartProName">
+                            Paolo Black Wood Dining Chair
+                        </div>
+                    </td>
+
+                    <td class="quantityPrice">
+                        <div class="CartproQuantity">
+
+                            <div class="add">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="quantityBox">
+                                1
+                            </div>
+                            <div class="minus">
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="CartproTotalPrice">
+                            $123
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="removeProduct">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                    </td>
+
+                </tr> -->
+
+            </tbody>
+        </table>
+
+        <div class="shoppingCartBottom">
+            <div class="backToShopping">
+                <a href="auctions.html"><i class="fa-solid fa-less-than"></i> Continue Shopping</a>
+            </div>
+
+            <div class="grandTotal">
+                Total: <span class="grandTotalPrice">$540.54</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Trending Product -->
+    <section id="trending" class="section-p">
+
+        <h2>Trending Now</h2>
+
+        <div class="pro-container trendingProContainer">
+
+            <!-- 
+                <div class="pro">
+                    <img src="/img/Trending/t1.png" alt="">
+                    <div class="des">
+                        <h5>Medoc Swivel Chair</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <h4>$299.99</h4>
+                        <div class="cart" onclick="AddToCart('/img/Trending/t1.png', 'Medoc Swivel Chair', '$299.99')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="pro">
+                    <img src="/img/Trending/t3.png" alt="">
+                    <div class="des">
+                        <h5>Gather Sofa</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <h4>$329.69</h4>
+    
+                        <div class="cart" onclick="AddToCart('/img/Trending/t3.png', 'Gather Sofa', '$329.69')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="pro">
+                    <img src="/img/Trending/t4.png" alt="">
+                    <div class="des">
+                        <h5>Gray marble Band tables</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+    
+                        <h4>$139.99</h4>
+                        <div class="cart" onclick="AddToCart('/img/Trending/t4.png', 'Gray marble Band tables', '$139.99')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="pro">
+                    <img src="/img/Trending/t2.png" alt="">
+                    <div class="des">
+                        <h5>Polly Sand Brown Accent Chair</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+    
+                        <h4>$439.99</h4>
+                        <div class="cart"
+                            onclick="AddToCart('/img/Trending/t2.png', 'Polly Sand Brown Accent Chair', '$439.99')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div> 
+            -->
+
+        </div>
+
+    </section>
+
+    <!-- News Letter -->
+    <section id="newsletter" class="section-p">
+        <div class="newsletter-txt">
+            <h4>Sign Up For NewsLetter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span>.</p>
+        </div>
+
+        <div class="form">
+            <input type="email" placeholder="Email Address">
+            <button class="normal">Sign Up</button>
+        </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="section-p">
+
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Suite #202-203, Progressive Center,<br> Block 6 PECHS, Karachi</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 012345 6789</p>
+            <p><strong>Email:</strong> contact@example.com</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="/img/pay/facebook.png"
+                            alt="facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="/img/pay/instagram.png"
+                            alt="instagram"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="/img/pay/pinterest.png"
+                            alt="pinterest"></a>
+                    <!-- <a href="https://twitter.com" target="_blank"><img id="x" src="/img/pay/twitter_X.png" alt="twitter"></a> -->
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/img/pay/youtube.png"
+                            alt="youtube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+            <a href="auctions.html">Products</a>
+            <a href="sign.html">My Account</a>
+            <a href="cart.html">My Cart</a>
+            <a href="cart.html">My Wishlist</a>
+            <a href="sign.html">Sign In</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row app">
+                <a href="https://www.apple.com/app-store/" target="_blank"><img src="/img/pay/app.jpg"
+                        alt="app-store"></a>
+                <a href="https://play.google.com/store/games?hl=en&gl=US" target="_blank"><img src="/img/pay/play.jpg"
+                        alt="google play"></a>
+            </div>
+            <p>Secured Payment Gateways </p>
+            <div class="row pay">
+                <a href="https://pk.visamiddleeast.com/" target="_blank"><img src="/img/pay/visa-pay.png"
+                        alt="Visa"></a>
+                <a href="https://easypaisa.com.pk/" target="_blank"><img src="/img/pay/easypaisa.png" alt=""></a>
+                <a href="https://www.paypal.com/pk/home" target="_blank"><img src="/img/pay/paypal1.png"
+                        alt="paypal"></a>
+                <a href="https://www.jazzcash.com.pk/" target="_blank"><img src="/img/pay/jazz-cash.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024, Ecomerce Templete</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript link -->
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "image": "img/Products/p1.png",
+        "name": "Ana Grey Dining Chair",
+        "price": "$299.99",
+        "rating": 5,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 2,
+        "image": "img/Products/p2.png",
+        "name": "Round Luxury Dinette Table",
+        "price": "$179.69",
+        "rating": 4,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 3,
+        "image": "img/Products/p3.png",
+        "name": "Paolo Black Wood Dining Chair",
+        "price": "$139.99",
+        "rating": 3,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 4,
+        "image": "img/Products/p4.png",
+        "name": "Natural Wood Dining Chair",
+        "price": "$299.99",
+        "rating": 5,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 5,
+        "image": "img/Products/p5.png",
+        "name": "Round Bedside Table",
+        "price": "$119.99",
+        "rating": 5,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 6,
+        "image": "img/Products/p6.png",
+        "name": "Director Floor Lamp",
+        "price": "$274.48",
+        "rating": 4,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 7,
+        "image": "img/Products/p7.png",
+        "name": "Sabal Bay Upholstered Bed",
+        "price": "$299.39",
+        "rating": 5,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 8,
+        "image": "img/Products/p8.png",
+        "name": "Snoozer Cream Boucle Nursery Swivel",
+        "price": "$189.79",
+        "rating": 3,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Best Selling"
+    },
+    {
+        "id": 9,
+        "image": "img/Trending/t1.png",
+        "name": "Medoc Swivel Chair",
+        "price": "$299.99",
+        "rating": 5,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Trending"
+    },
+    {
+        "id": 10,
+        "image": "img/Trending/t3.png",
+        "name": "Gather Sofa",
+        "price": "$329.69",
+        "rating": 3,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Trending"
+    },
+    {
+        "id": 11,
+        "image": "img/Trending/t4.png",
+        "name": "Gray Marble Band Tables",
+        "price": "$139.99",
+        "rating": 4,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Trending"
+    },
+    {
+        "id": 12,
+        "image": "img/Trending/t2.png",
+        "name": "Polly Sand Brown Accent Chair",
+        "price": "$439.99",
+        "rating": 5,
+        "description": "Fashion Furniture are often made from high-quality fabrics such as cotton, polyester, or blends of these materials. These fabrics provide comfort, breathability, durability and available in a range of colors.",
+        "categories": "Trending"
+    }
+]

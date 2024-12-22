@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuctionsTable</title>
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">AuctionsTable</a>
+            </div>
+
+            <div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="auctions.html">Auctions</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <div class="cart">
+                        <li><a id="lgBag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    </div>
+
+                    <i id="close" class="fa-solid fa-xmark"></i>
+                </ul>
+            </div>
+
+            <div class="mobile">
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <i id="bars" class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about-header" class="section-p">
+        <div class="header-content">
+            <h2>About</h2>
+            <span><a href="index.html">Home</a> / <a href="about.html">About</a> </span>
+        </div>
+
+    </section>
+
+    <!-- About Details -->
+
+    <secttion id="aboutDets" class="section-p">
+
+        <img src="/img/About/about2.jpg" alt="">
+
+        <div class="about-content">
+            <h2>Who We Are?</h2>
+            <p>
+                Welcome to AuctionsTable, where we're dedicated to providing you with an unparalleled shopping
+                experience. Our
+                mission is clear: to offer top-quality products that enhance your life, all delivered with exceptional
+                service. From carefully curated selections to seamless browsing and swift delivery, we prioritize your
+                satisfaction at every step. At AuctionsTable, shopping isn't just a transaction—it's an adventure,
+                guided by our
+                commitment to excellence and innovation. Thank you for choosing us as your trusted online destination.
+                Welcome to a world of endless possibilities. Welcome to AuctionsTable.
+            </p>
+
+            <marquee bgcolor="#ccc" loop="-1" width="100%" scrollamount="s">
+                Thank you for choosing us as your trusted online destination
+            </marquee>
+
+            <button class="normal"><a href="index.html">Explore Now</a></button>
+        </div>
+
+    </secttion>
+
+    <!-- About Video -->
+    <section id="aboutVideo" class="section-p">
+        <h2><a href="auctions.html">Iconic Interiors</a></h2>
+
+        <div class="video">
+            <video autoplay muted loop src="/img/About/about-visdeo.mp4"></video>
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+    <section id="feature" class="section-p">
+
+        <div class="fe-box">
+
+            <div class="icon">
+                <img src="/img/Features/f1.svg" alt="">
+            </div>
+            <div class="dets">
+                <h3>Free Shipping</h3>
+                <span>Free Shipping for orders</span>
+            </div>
+
+        </div>
+
+        <div class="fe-box">
+
+            <div class="icon">
+                <img src="/img/Features/f2.svg" alt="">
+            </div>
+            <div class="dets">
+                <h3>Money Guarantee</h3>
+                <span>Within 7 days</span>
+            </div>
+
+        </div>
+
+        <div class="fe-box">
+
+            <div class="icon">
+                <img src="/img/Features/f3.svg" alt="">
+            </div>
+            <div class="dets">
+                <h3>Flexible Payment</h3>
+                <span>Pay with Multiple Credit Cards</span>
+            </div>
+
+        </div>
+
+        <div class="fe-box">
+
+            <div class="icon">
+                <img src="/img/Features/f4.svg" alt="">
+            </div>
+            <div class="dets">
+                <h3>Online Support</h3>
+                <span>24 hours a day, 7 days a week</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Trending Product -->
+    <section id="trending" class="section-p">
+
+        <h2>Trending Now</h2>
+
+        <div class="pro-container trendingProContainer">
+
+            <!-- 
+                <div class="pro">
+                    <img src="/img/Trending/t1.png" alt="">
+                    <div class="des">
+                        <h5>Medoc Swivel Chair</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <h4>$299.99</h4>
+                        <div class="cart" onclick="AddToCart('/img/Trending/t1.png', 'Medoc Swivel Chair', '$299.99')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="pro">
+                    <img src="/img/Trending/t3.png" alt="">
+                    <div class="des">
+                        <h5>Gather Sofa</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <h4>$329.69</h4>
+    
+                        <div class="cart" onclick="AddToCart('/img/Trending/t3.png', 'Gather Sofa', '$329.69')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="pro">
+                    <img src="/img/Trending/t4.png" alt="">
+                    <div class="des">
+                        <h5>Gray marble Band tables</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+    
+                        <h4>$139.99</h4>
+                        <div class="cart" onclick="AddToCart('/img/Trending/t4.png', 'Gray marble Band tables', '$139.99')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="pro">
+                    <img src="/img/Trending/t2.png" alt="">
+                    <div class="des">
+                        <h5>Polly Sand Brown Accent Chair</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+    
+                        <h4>$439.99</h4>
+                        <div class="cart"
+                            onclick="AddToCart('/img/Trending/t2.png', 'Polly Sand Brown Accent Chair', '$439.99')">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div> 
+            -->
+
+        </div>
+
+    </section>
+
+
+    <!-- News Letter -->
+    <section id="newsletter" class="section-p">
+        <div class="newsletter-txt">
+            <h4>Sign Up For NewsLetter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span>.</p>
+        </div>
+
+        <div class="form">
+            <input type="email" placeholder="Email Address">
+            <button class="normal">Sign Up</button>
+        </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="section-p">
+
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Suite #202-203, Progressive Center,<br> Block 6 PECHS, Karachi</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 012345 6789</p>
+            <p><strong>Email:</strong> contact@example.com</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="/img/pay/facebook.png"
+                            alt="facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="/img/pay/instagram.png"
+                            alt="instagram"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="/img/pay/pinterest.png"
+                            alt="pinterest"></a>
+                    <!-- <a href="https://twitter.com" target="_blank"><img id="x" src="/img/pay/twitter_X.png" alt="twitter"></a> -->
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/img/pay/youtube.png"
+                            alt="youtube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+            <a href="auctions.html">Products</a>
+            <a href="sign.html">My Account</a>
+            <a href="cart.html">My Cart</a>
+            <a href="cart.html">My Wishlist</a>
+            <a href="sign.html">Sign In</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row app">
+                <a href="https://www.apple.com/app-store/" target="_blank"><img src="/img/pay/app.jpg"
+                        alt="app-store"></a>
+                <a href="https://play.google.com/store/games?hl=en&gl=US" target="_blank"><img src="/img/pay/play.jpg"
+                        alt="google play"></a>
+            </div>
+            <p>Secured Payment Gateways </p>
+            <div class="row pay">
+                <a href="https://pk.visamiddleeast.com/" target="_blank"><img src="/img/pay/visa-pay.png"
+                        alt="Visa"></a>
+                <a href="https://easypaisa.com.pk/" target="_blank"><img src="/img/pay/easypaisa.png" alt=""></a>
+                <a href="https://www.paypal.com/pk/home" target="_blank"><img src="/img/pay/paypal1.png"
+                        alt="paypal"></a>
+                <a href="https://www.jazzcash.com.pk/" target="_blank"><img src="/img/pay/jazz-cash.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024, Ecomerce Templete</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript link -->
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+</body>
+
+</html>
